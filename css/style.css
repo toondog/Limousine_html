@@ -600,6 +600,7 @@ header .bottom-header .navbar-default .navbar-nav>li>a {
 .bottom-header .navbar-default .navbar-nav>.active>a, .bottom-header .navbar-default .navbar-nav>.active>a:hover, .bottom-header .navbar-default .navbar-nav>.active>a:focus {
 	background-color: #c7081b;
 	color: #fff;
+	opacity:.5;
 }
 
 .bottom-header .navbar-default .navbar-nav> li> a:hover {
