@@ -37,26 +37,6 @@
 <script type="text/javascript" src="js/map.js"></script>
 <script src="js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="js/maininbe.js"></script>
-<script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
-<script src="http://code.createjs.com/tweenjs-0.5.1.min.js"></script>
-<script src="http://code.createjs.com/movieclip-0.7.1.min.js"></script>
-<script src="js/alien .js"></script>
-
-<script>
-var canvas, stage, exportRoot;
-
-function init() {
-	canvas = document.getElementById("canvas");
-	exportRoot = new lib.alien();
-
-	stage = new createjs.Stage(canvas);
-	stage.addChild(exportRoot);
-	stage.update();
-
-	createjs.Ticker.setFPS(lib.properties.fps);
-	createjs.Ticker.addEventListener("tick", stage);
-}
-</script>
 <!-- Twitter Feed Scripts 
      Uncomment to activate<!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
@@ -74,7 +54,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
 <script type="text/javascript" src="js/twitter/twitter_feed.js"></script> -->
 </head>
 
-<body  onload="init();">
+<body>
 <!--Header Start-->
 <header data-spy="affix" data-offset-top="1" class="clearfix">
   <section class="toolbar">
@@ -222,8 +202,6 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
       </section>
       <!--welcome-wrap ends-->
     </div>
-	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-	<canvas id="canvas" width="440" height="400" style="background-color:#FFFFFF;margin-right:-20;"></canvas></div>
   </div>
 </section>
 <!--Footer Start-->
