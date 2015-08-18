@@ -600,7 +600,6 @@ header .bottom-header .navbar-default .navbar-nav>li>a {
 .bottom-header .navbar-default .navbar-nav>.active>a, .bottom-header .navbar-default .navbar-nav>.active>a:hover, .bottom-header .navbar-default .navbar-nav>.active>a:focus {
 	background-color: #c7081b;
 	color: #fff;
-	opacity:.5;
 }
 
 .bottom-header .navbar-default .navbar-nav> li> a:hover {
@@ -2948,8 +2947,6 @@ div.custom-select:last-child {
 	margin-bottom: 38px;
 	position: relative;
 	background-color: #f0f0f0;
-	min-height:600px;
-	min-width:-moz-fit-content;
 }
 
 .testimonial:before {
